@@ -17,6 +17,6 @@ public class question2 {
             System.out.println();
         }
     }
-
-
 }
+
+// allo khang ne cos gi khong
