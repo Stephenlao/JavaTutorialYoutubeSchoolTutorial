@@ -25,9 +25,9 @@ public class question2 {
 
     //question 2
     public static int getIndexMin(int[] numbers) {
-        int indexMin = numbers[0];
+        int indexMin = 0;
         for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] < indexMin) {
+            if (numbers[i] < numbers[indexMin]) {
                 indexMin = i;
             }
         }
