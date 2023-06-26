@@ -1,4 +1,4 @@
-package javaTutorialSchool.OnlineTest12022C.question3;
+package javaTutorialSchool.Onlinetest1Revision.question3;
 
 import java.util.ArrayList;
 
@@ -11,25 +11,24 @@ public class Clients {
         services = new ArrayList<>();
     }
 
-    public Services bookService(int distance, String type) {
+    public Services bookedServices(double distance, String type) {
         Services service;
-        if (type.equalsIgnoreCase("Food Delivery")) {
+        if (type.equalsIgnoreCase("Food delivery")) {
             service = new FoodDelivery(distance);
         } else {
             service = new ExpressDelivery(distance);
         }
         services.add(service);
-        System.out.printf("The client %s has booked the service %s!\n", this.getName(), type);
+        System.out.printf("The client %s has booked the service %s\n", this.getName(), type);
         return service;
     }
 
-    public void printAllService() {
-        System.out.printf("%s Service", name);
+    public void printallClientServices() {
+        System.out.printf("%s Services:", this.getName());
 
         for (Services s : services) {
             System.out.println(s);
         }
-
     }
 
     public String getName() {
@@ -40,5 +39,3 @@ public class Clients {
         this.name = name;
     }
 }
-
-

@@ -39,8 +39,8 @@ public class Account {
     }
 
     public void debit(double amount) {
-        if (amount < this.getBalance()) {
-            double balanceDebit = this.getBalance() - amount;
+        if (amount < this.balance) {
+            double balanceDebit = this.balance - amount;
             this.balance = balanceDebit;
         } else {
             System.out.println("The debit amount is larger than the balance");

@@ -1,4 +1,4 @@
-package javaTutorialSchool.OnlineTest12022C;
+package javaTutorialSchool.OnlineTest12022C.question1;
 
 import java.util.Scanner;
 
