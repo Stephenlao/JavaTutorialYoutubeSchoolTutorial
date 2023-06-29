@@ -8,7 +8,7 @@ public class question1 {
         // using try/catch
         // printwriter and filewriter to create file path "users.txt" and write data into this file
         try {
-            PrintWriter pw = new PrintWriter(new FileWriter("src/javaTutorialSchool/week8/lectureReadFileExample/users.txt"));
+            PrintWriter pw = new PrintWriter(new FileWriter("src/javaTutorialSchool/week8/users.txt"));
             Scanner scanner = new Scanner(System.in);
             // set choice = "Y"
             String choice = "Y";

@@ -22,9 +22,13 @@ public class Phone {
 
     public static void main(String[] args) throws ValidationException {
         try {
-            Phone phone1 = new Phone("Khang", "1234567812345678");
+            Phone phone1 = new Phone("Khang", "0913501135801146");
+            Phone phone2 = new Phone("", "0913501135801146");
+            Phone phone3 = new Phone("Uyen", "");
+            Phone phone4 = new Phone("Khang", "09135");
+//            Phone phone1 = new Phone("Khang", "1234567812345678");
             System.out.println("Phone created corrected: " + phone1);
-            Phone phone2 = new Phone("", "1234567812345678");
+//            Phone phone2 = new Phone("", "1234567812345678");
         } catch (ValidationException ve) {
             System.out.println("Phone creation failed: " + ve.getMessage());
         }

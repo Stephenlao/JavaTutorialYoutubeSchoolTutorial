@@ -4,9 +4,5 @@ Address: sala
 -------------------
 Name: uyen
 Address: tan binh
-20
--------------------
-Name: khanh
-Address: cmt8
-30
+22
 -------------------
